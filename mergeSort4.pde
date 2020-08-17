@@ -50,4 +50,7 @@ void merge (int [] array,int startPoint,int high, int  midPoint){
     k++;
     j++;
   }
+  for(i=startPoint;i<k;i++){
+    array[i]=newArray[i];
+  }
 }
